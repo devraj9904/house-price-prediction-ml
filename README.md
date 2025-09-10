@@ -1,8 +1,8 @@
 # House Price Prediction ML Project
 
 ## Overview
-This project predicts house prices using machine learning models: **Linear Regression**, **Random Forest**, and **Gradient Boosting**.  
-The dataset is the **Ames Housing dataset**, which contains 1460 houses with 81 features (both numerical and categorical).
+This project predicts house prices using machine learning models: **LightGBM**, **XGBoost**, and **Gradient Boosting**.  
+The dataset is the **Ames Housing dataset**, which contains 2,930 records, 80 features (both numerical and categorical).
 
 ## Features
 - Data cleaning and missing value handling
@@ -13,9 +13,9 @@ The dataset is the **Ames Housing dataset**, which contains 1460 houses with 81 
 ## Models and Performance
 | Model                 | Mean Absolute Error (MAE) |
 |----------------------|---------------------------|
-| Linear Regression     | ~20,300                   |
-| Random Forest         | ~17,580                   |
-| Gradient Boosting     | ~17,512                   |
+| Gradient Boosting     | ~20,300                   |
+| XGBoost               | ~17,580                   |
+| LightGBM              | ~17,512                   |
 
 **MAE** is the average difference between the predicted and actual house prices. Lower is better.  
 
