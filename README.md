@@ -22,7 +22,7 @@ The dataset is the **Ames Housing dataset**, which contains 2,930 records, 80 fe
 
 Dataset:
 
-Kaggle House Prices Competition.
+Ames Housing Dataset.
 
 
 
